@@ -15,6 +15,18 @@ This gave me a hard time figuring out how to change the value of the array withi
 
 Anyway, I am very proud to having done this within 24 hours of learning python :). On to the next one!
 
+#### Lessons learned
+* `len(a)` is the length of an array
+* `[int(n) for n in str(number)]` creates a list of integers from a string of numbers. Attention: It has to be numbers. First value can also be a different datatype though, so it is also possible to make an array of characters or one digit strings.
+* Learned how to use github (hi everyone!) and how to push, commit and pull.
+* Got a good sense of how to use for and while loops.
+
 ### Challenge 399
 [Link to reddit post](https://www.reddit.com/r/dailyprogrammer/comments/onfehl/20210719_challenge_399_easy_letter_value_sum/)
 
+This was harder to solve than I expected. The only problem here was to convert the letters of the alphabet to values. First I tried to solve it by determining the value of a complete word. That didn't really work though. In the process however I realised it might be easier to just determine the value of one character at a time. Also I did a redundant approach to connecting values and letters through an additional variable "lettervalues" which I later found obsolete.
+It's not a beauty, but it solves the problem and I am proud of my solution.
+
+#### Lessons learned
+* Every challenge is now in a different .py to stay organised. Had to learn how to import functions from other files.
+* string is a class which lets you import a list of the alphabet through `string.ascii_lowercase`.
