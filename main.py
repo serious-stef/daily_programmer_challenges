@@ -4,4 +4,4 @@ from challenges import lettervaluesum, gameofthrees
 
 if __name__ == "__main__":
     # gameofthrees.game(31337357)
-    lettervaluesum.lettersum("excellent")
+    lettervaluesum.lettersum("microspectrophotometries")
