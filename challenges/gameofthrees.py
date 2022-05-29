@@ -1,5 +1,10 @@
-# Game of Threes - A Coding-Challenge from reddit.com/dailyprogrammer
-# https://www.reddit.com/r/dailyprogrammer/comments/3r7wxz/20151102_challenge_239_easy_a_game_of_threes/
+""" Game of Threes - A Coding-Challenge from reddit.com/dailyprogrammer
+https://www.reddit.com/r/dailyprogrammer/comments/3r7wxz/20151102_challenge_239_easy_a_game_of_threes/
+Challenge Level: Easy
+Description: Give the program a value. Let it divide that value by "3" until it gets to "1".
+If a number is not divisible by three, let the program add or substract "1" to make it divisible by three.
+Print out every step the program does during runtime.
+For the whole explanation follow the link at the top of this file."""
 
 
 divthree = [3, 6, 9]  # Array for checking the digit sum on divisibility by three.
