@@ -30,3 +30,7 @@ It's not a beauty, but it solves the problem and I am proud of my solution.
 #### Lessons learned
 * Every challenge is now in a different .py to stay organised. Had to learn how to import functions from other files.
 * string is a class which lets you import a list of the alphabet through `string.ascii_lowercase`.
+
+#### Bonus Challenges
+
+So this

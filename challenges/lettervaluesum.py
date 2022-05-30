@@ -9,6 +9,7 @@ letters = [str(s) for s in str(string.ascii_lowercase)]  # List of all lowercase
 values = [int(v) for v in range(1, 27)]  # List of values from 1-26
 
 
+# This function defines a value for each character in a word.
 def lettervalue(character):
     i = 0
 
@@ -18,6 +19,7 @@ def lettervalue(character):
         i += 1
 
 
+# This is the main function, which sums up the whole word.
 def lettersum(word):
     lsum = 0
 
